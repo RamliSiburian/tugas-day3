@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a:link,
+a:active,
+a:visited{
+    color: #000;
+    text-decoration: none;
+}
+nav{
+    padding: 0px 100px;
+    background-color: #f3f3f3;
+    display: flex;
+}
+nav ul{
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 25px;
+}
+nav ul li a,
+.main-index .cv{
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+nav ul li a:hover,
+.main-index .cv:hover{
+    border-bottom: 1px solid navy;
+
+}
+nav .nav-left{
+    flex: 50%;
+}
+nav .nav-right{
+    flex: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+nav .nav-right a{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+}
+nav .nav-right a:hover,
+.main-index section .contact:hover,
+.main-contact .submit:hover{
+    box-shadow: 1px 1px 10px whitesmoke, 2px 2px 15px blue;
+}
+
+
+
+
+/*
+----------------------------
+style bagian container index 
+----------------------------
+*/
+.main-index{
+    padding: 75px 100px;
+    background-color: #e3e7eb;
+    display: flex;
+}
+.main-index section{
+    padding: 50px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px #999;
+}
+.main-index section .left{
+    flex: 60%;
+}
+.main-index section .left p{
+    text-align: justify;
+}
+.main-index section .left .contact{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    margin: 15px 15px 0px 0px;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+.main-index section .left .sosmed{
+    margin-top: 45px;
+    font-size: 20px;
+}
+.main-index section .left .sosmed a{
+    margin-right: 15px;
+}
+.main-index section .right{
+    flex: 40%;
+}
+.main-index section .right .card{
+    width: 300px;
+    margin: 0px auto;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: #fefefe;
+    text-align: center;
+    box-shadow: 0px 0px 15px #aaa;
+}
+.main-index section .right .card img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.main-index section .right .card p{
+    text-align: center;
+    margin: 5px 0px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.main-index section .right .card span{
+    font-size: 13px;
+    margin-top: -5px;
+    display: block;
+}
+
+
+/* 
+------------------------------
+style container bagian contact
+------------------------------
+*/
+
+.main-contact{
+    height: 90vh;
+    background-color: #dce0e4;
+}
+.main-contact section{
+    margin: 0px 100px;
+    padding-top: 50px;
+}
+.main-contact section form{
+    width: 400px;
+    margin: 0px auto;
+}
+.main-contact section form h1{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.main-contact section form label{
+    display: inline-block;
+    margin: 15px 0px 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-contact .form-group .form-control{
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.main-contact .form-group .form-control:focus{
+    background-color: #aaa;
+}
+.main-contact .buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.main-contact .submit{
+    padding: 5px 20px;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 15px;
+}
